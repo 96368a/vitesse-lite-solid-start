@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.3",
+    "@solidjs/router": "^0.10.10",
+    "@solidjs/start": "^0.4.11",
+    "@unocss/reset": "^0.58.3",
+    "solid-js": "^1.8.12",
+    "solidjs-use": "^2.3.0",
+    "unocss": "^0.58.3",
+    "vinxi": "^0.1.6"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.28",
+    "unplugin-auto-import": "^0.17.5"
+  }
+}
