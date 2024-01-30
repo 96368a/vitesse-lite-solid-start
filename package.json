@@ -1,10 +1,14 @@
 {
   "name": "my-app",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@solidjs/meta": "^0.29.3",
@@ -16,11 +20,10 @@
     "unocss": "^0.58.3",
     "vinxi": "^0.1.6"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
     "@iconify-json/carbon": "^1.1.28",
+    "eslint": "^8.56.0",
     "unplugin-auto-import": "^0.17.5"
   }
 }
